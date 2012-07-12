@@ -1,5 +1,5 @@
 ---
-abstract: 'A module for you'
+abstract: 'mysql replication listener in Perl5'
 author:
   - 'Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>'
 build_requires:
@@ -32,7 +32,7 @@ requires:
   Scalar::Util: 1.14
   XSLoader: 0.02
   parent: 0.221
-  perl: 5.8.8
+  perl: 5.14.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
